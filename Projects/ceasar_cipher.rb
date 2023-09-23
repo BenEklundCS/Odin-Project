@@ -1,16 +1,18 @@
-def ceasar_cipher(string, shift)
-    letters = ('a'..'z').to_a
+# Benjamin Eklund
+# Odin Project
 
-    string.chars.map do |c|
-        if string.include?(c.downcase)
-            index = string.index(c)
-            new_index = (index + shift) % letters.length
-            letters[new_index]
-        else
-            c
-        end
-    end.join
+# Still working on the text wrap condition
+
+def ceasar_cipher(string, shift)
+    encrypted_text = ""
+    string.each_char do |char|
+        encrypted_text << (char.ord + shift).chr
+    end
+    encrypted_text
 end
 
 new_string = ceasar_cipher("hello world", 5)
+original_string = ceasar_cipher(new_string, -5)
+
 puts new_string
+puts original_string
