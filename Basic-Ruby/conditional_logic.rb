@@ -18,7 +18,7 @@ end
 
 a = 100
 b = 100
-puts a.eql?(b) # Checks if values are equal to one another
+puts a.eql?(b)   # Checks if values are equal to one another
 puts a.equal?(b) # Checks if MEMORY ADDRESS is equal for two vars, this is often true for integers
                  # Due to fun computer optimization
 a_string = "Ben"
@@ -31,5 +31,6 @@ puts a_string.equal?(b_string) # Computers cannot make this optimization for str
 puts 5 <=> 10    #=> -1
 puts 10 <=> 10   #=> 0
 puts 10 <=> 5    #=> 1
+
 
 
