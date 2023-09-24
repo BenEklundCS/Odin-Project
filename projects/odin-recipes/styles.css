@@ -9,7 +9,14 @@ img {
     margin-block:25px;
     margin-left:50px;
 }
-
-* {
-    background-color:azure;
+.title {
+    color:#92A8D1;
 }
+.homepage {
+    background-color: #34568B;
+}
+
+.recipe {
+    background-color: #92A8D1;
+}
+
