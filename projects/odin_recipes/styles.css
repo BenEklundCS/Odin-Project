@@ -1,0 +1,22 @@
+div {
+    color:black;
+    font-family:sans-serif;
+    justify-content:center;
+    margin-left:50px;
+}
+
+img {
+    margin-block:25px;
+    margin-left:50px;
+}
+.title {
+    color:#92A8D1;
+}
+.homepage {
+    background-color: #34568B;
+}
+
+.recipe {
+    background-color: #92A8D1;
+}
+
