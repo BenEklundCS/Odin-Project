@@ -5,8 +5,8 @@
     border: 4px solid indigo;
     display: flex;
   }
-  
-  .item {
+
+.item {
     width: 60px;
     height: 60px;
     border: 4px solid darkslategray;
@@ -15,5 +15,4 @@
     /*justify-content: space-between | will add space between each element (ALIGNS ALONG THE MAIN AXIS)*/
     /*align-items: center | aligns along the cross axis*/
     /*gap: 10px | adds specified pixel gap between items*/
-
   }

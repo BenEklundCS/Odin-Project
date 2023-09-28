@@ -1,7 +1,34 @@
+* {
+    background-color: #1F2937;
+}
+
 .container {
+    height: 45px;
+    padding: 16px;
     display: flex;
-}
-.item {
-    flex: 1;
+    border: 4px solid brown;
+    color: white;
+  }
+
+.item_left {
+    width: 200px;
+    height: 45px;
+    color: white;
+    /*flex: 1; | will grow to fill available space*/ 
+    /*justify-content: space-between | will add space between each element (ALIGNS ALONG THE MAIN AXIS)*/
+    /*align-items: center | aligns along the cross axis*/
+    /*gap: 10px | adds specified pixel gap between items*/
+  }
+
+  .item_right {
+    width: 600px;
+    height: 45px;
+    color: white;
+    margin-left: auto;
+    justify-content: space-between;
     display: flex;
-}
+    /*flex: 1; | will grow to fill available space*/ 
+    /*justify-content: space-between | will add space between each element (ALIGNS ALONG THE MAIN AXIS)*/
+    /*align-items: center | aligns along the cross axis*/
+    /*gap: 10px | adds specified pixel gap between items*/
+  }
