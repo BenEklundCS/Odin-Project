@@ -2,33 +2,39 @@
     background-color: #1F2937;
 }
 
-.container {
+.header_container {
     height: 45px;
-    padding: 16px;
+    padding: 15px;
     display: flex;
-    border: 4px solid brown;
     color: white;
+    border: 4px solid brown;
   }
 
 .item_left {
     width: 200px;
     height: 45px;
+    margin-left: 50px;
     color: white;
-    /*flex: 1; | will grow to fill available space*/ 
-    /*justify-content: space-between | will add space between each element (ALIGNS ALONG THE MAIN AXIS)*/
-    /*align-items: center | aligns along the cross axis*/
-    /*gap: 10px | adds specified pixel gap between items*/
+    border: 4px solid brown;
   }
 
-  .item_right {
+.item_right {
     width: 600px;
     height: 45px;
     color: white;
     margin-left: auto;
     justify-content: space-between;
     display: flex;
+    border: 4px solid brown;
+  }
+.container {
+    width: auto;
+    height: 400px;
+    padding: 15px;
+    border: 4px solid brown;
+}
+
     /*flex: 1; | will grow to fill available space*/ 
     /*justify-content: space-between | will add space between each element (ALIGNS ALONG THE MAIN AXIS)*/
     /*align-items: center | aligns along the cross axis*/
     /*gap: 10px | adds specified pixel gap between items*/
-  }
