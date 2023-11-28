@@ -1,0 +1,12 @@
+button {
+    font-size: xx-large;
+    border: 3px solid azure;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+button:active {
+    background-color: darkcyan;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
